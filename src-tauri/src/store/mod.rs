@@ -158,7 +158,7 @@ impl Default for Settings {
 			statistics: true,
 			separatewine: false,
 			developer: false,
-			disableelgato: false,
+			disableelgato: true,
 		}
 	}
 }
