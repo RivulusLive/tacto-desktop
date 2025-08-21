@@ -48,6 +48,14 @@
 <Popup show={showPopup} label="Settings">
 	<button class="mr-2 my-1 float-right text-xl text-neutral-300" on:click={() => showPopup = false} aria-label="Close">✕</button>
 	<h2 class="m-2 font-semibold text-xl text-neutral-300">Settings</h2>
+
+	<button
+		class="m-2 px-2 py-1 text-sm text-neutral-300 bg-neutral-700 hover:bg-neutral-600 transition-colors border border-neutral-600 rounded-lg"
+		on:click={() => invoke("show_settings_interface", { plugin: "us.rivul.tacto.sdPlugin" })}
+	>
+		Click here to launch Tacto account management and keyboard mapping configuration
+	</button>
+
 	{#if $settings}
 		<div class="flex flex-row items-center m-2 space-x-2">
 			<label for="settings-language" class="text-neutral-400">Language:</label>
