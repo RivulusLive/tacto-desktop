@@ -1,13 +1,13 @@
 {
-	"Name": "OpenDeck Starter Pack",
-	"Description": "OpenDeck starter pack plugin",
+	"Name": "Tacto Starter Pack",
+	"Description": "Tacto starter pack plugin",
 	"Author": "Aman Khanna (nekename)",
 	"Version": "2.7.0",
 	"CodePathWin": "windows/bin/opendeck-starterpack.exe",
 	"CodePathMac": "darwin/bin/opendeck-starterpack",
 	"CodePathLin": "linux/bin/opendeck-starterpack",
 	"Icon": "icons/plugin",
-	"Category": "OpenDeck",
+	"Category": "Tacto",
 	"OS": [
 		{
 			"Platform": "mac",
