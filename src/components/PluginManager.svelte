@@ -105,9 +105,11 @@
 		await installPlugin(plugin.name, selected.browser_download_url, null, id);
 	}
 
+	/*
 	async function installPluginElgato(plugin: any) {
 		await installPlugin(plugin.name, `https://plugins.amankhanna.me/rezipped/${plugin.id}.zip`, null, plugin.id);
 	}
+	*/
 
 	async function installPluginFile() {
 		const path = await open({ multiple: false, directory: false });
@@ -322,6 +324,7 @@
 		</div>
 	{/if}
 
+	<!--
 	<div class="flex flex-row items-center mt-6 mb-2">
 		<h2 class="mx-2 font-semibold text-md dark:text-neutral-400">Elgato App Store archive</h2>
 		<Tooltip>Plugins archived from the Elgato App Store (now replaced by the Elgato Marketplace)</Tooltip>
@@ -381,6 +384,7 @@
 			</ListedPlugin>
 		</div>
 	{/if}
+	-->
 </Popup>
 
 {#if openDetailsView}
