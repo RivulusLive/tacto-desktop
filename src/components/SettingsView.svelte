@@ -60,6 +60,14 @@
 <Popup show={showPopup}>
 	<button class="mr-2 my-1 float-right text-xl dark:text-neutral-300" on:click={() => showPopup = false}>✕</button>
 	<h2 class="m-2 font-semibold text-xl dark:text-neutral-300">Settings</h2>
+
+	<button
+		class="m-2 px-2 py-1 text-sm text-neutral-700 dark:text-neutral-300 bg-neutral-100 dark:bg-neutral-700 border dark:border-neutral-600 rounded-lg outline-hidden"
+		on:click={() => invoke("show_settings_interface", { plugin: "us.rivul.tacto.sdPlugin" })}
+	>
+		Click here to launch Tacto account management and keyboard mapping configuration
+	</button>
+
 	{#if $settings}
 		<div class="flex flex-row items-center m-2 space-x-2">
 			<span class="dark:text-neutral-400"> Language: </span>
