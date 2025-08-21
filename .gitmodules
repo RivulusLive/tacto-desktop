@@ -1,0 +1,3 @@
+[submodule "plugins/us.rivul.tacto.sdPlugin"]
+	path = plugins/us.rivul.tacto.sdPlugin
+	url = https://github.com/RivulusLive/tacto-connect-source.git
