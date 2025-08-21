@@ -2,7 +2,7 @@
 <component type="desktop-application">
 	<id>opendeck</id>
 
-	<name>OpenDeck</name>
+	<name>OpenDeck (Tacto)</name>
 	<summary>Use stream controllers</summary>
 	<developer id="me.amankhanna"><name>Aman Khanna</name></developer>
 	<launchable type="desktop-id">opendeck.desktop</launchable>
