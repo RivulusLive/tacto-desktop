@@ -155,6 +155,7 @@
 		<span class="text-xs text-neutral-400">
 			{@html buildInfo}
 		</span>
+		<!--
 		<div class="absolute bottom-6 flex flex-row items-center text-sm text-neutral-400">
 			<span class="mr-1">
 				Please leave a
@@ -168,5 +169,6 @@
 			<Heart weight="fill" fill="fuchsia" />
 			<span class="ml-1">for my work :)</span>
 		</div>
+		-->
 	</div>
 </Popup>
