@@ -143,10 +143,12 @@
 			<input type="checkbox" bind:checked={$settings.updatecheck} id="settings-updatecheck" />
 		</div>
 
+		<!--
 		<div class="flex flex-row items-center m-2 space-x-2">
 			<label for="settings-statistics" class="text-neutral-400">{$t("settings.statistics")}</label>
 			<input type="checkbox" bind:checked={$settings.statistics} id="settings-statistics" />
 		</div>
+		-->
 
 		{#if !buildInfo?.split("</summary>")[0]?.includes("windows")}
 			<div class="flex flex-row items-center m-2 space-x-2">
