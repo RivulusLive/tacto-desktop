@@ -210,6 +210,7 @@
 		</span>
 	</div>
 
+	<!--
 	<svelte:fragment slot="footer">
 		<div class="flex flex-row items-center mt-4 text-sm text-neutral-400">
 			<span class="mr-1">
@@ -225,4 +226,5 @@
 			<span class="ml-1">{$t("settings.footer.5")}</span>
 		</div>
 	</svelte:fragment>
+	-->
 </Popup>
