@@ -229,7 +229,7 @@ Enjoy!"#,
 
 			async fn update() -> Result<(), anyhow::Error> {
 				let res = reqwest::Client::new()
-					.get("https://api.github.com/repos/nekename/OpenDeck/releases/latest")
+					.get("https://api.github.com/repos/RivulusLive/tacto-desktop/releases/latest")
 					.header("Accept", "application/vnd.github+json")
 					.header("User-Agent", "OpenDeck")
 					.send()
