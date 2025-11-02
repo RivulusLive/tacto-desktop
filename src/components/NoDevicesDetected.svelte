@@ -9,8 +9,9 @@
 
 <div class="flex flex-col justify-center items-center w-full h-full text-center dark:text-neutral-300">
 	<div class="w-80 text-sm">
-		<h2 class="text-lg font-bold mb-2">No devices detected</h2>
-		<p class="mb-2">Make sure your devices are connected properly and you have permission to access them.</p>
+		<h2 class="text-lg font-bold mb-2">Welcome to Tacto</h2>
+		<p class="mb-2">To get started with Tacto Mobile or Tacto Keyboard, log in to your account in Settings.</p>
+		<p class="mb-2">Make sure any other devices are connected properly and you have permission to access them.</p>
 		{#if buildInfo?.includes("linux")}
 			<p class="mb-2">Ensure you have the correct udev subsystem rules installed.</p>
 		{/if}
