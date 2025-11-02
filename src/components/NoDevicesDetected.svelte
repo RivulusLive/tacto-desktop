@@ -10,8 +10,9 @@
 
 <div class="flex flex-col justify-center items-center w-full h-full text-center text-neutral-300">
 	<div class="w-80 text-sm">
-		<h2 class="text-lg font-bold mb-2">{$t("no_devices_detected.title")}</h2>
-		<p class="mb-2">{$t("no_devices_detected.check_connection")}</p>
+		<h2 class="text-lg font-bold mb-2">Welcome to Tacto</h2>
+		<p class="mb-2">To get started with Tacto, launch Tacto Connect from Settings.</p>
+		<p class="mb-2">Make sure any other devices are connected properly and you have permission to access them.</p>
 		{#if buildInfo?.split("</summary>")[0]?.includes("linux")}
 			<p class="mb-2">{$t("no_devices_detected.check_udev")}</p>
 		{/if}
